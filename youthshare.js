@@ -3,8 +3,7 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["https://focu.youth.cn/zerohot/20210323?sid=37048622&uid=52454720&timestamp=1616490232&signature=NXjrme82G3An0wVvWpamBNEomfy9ZNK1gq9dJKyL5YRxElM6Zo&share_id=52454720370486221616490247716&scene_id=fire_share&time=1616490248&phone_code=bc983e25e23e124874909c96cd693e7e&app_version=2.0.0.1&sign=c2fa7988140dadff6cc12b26a0f8c3d4&from=singlemessage&isappinstalled=0",
-	       "https://focu.youth.cn/zerohot/20210321?sid=37007563&uid=52454720&timestamp=1616490232&signature=M3YJXEvNgO8W5zRwpk4Vj6OyJTE2Dod42mZ69xB0loAqGPQnLb&share_id=52454720370075631616490275467&scene_id=fire_share&time=1616490275&phone_code=bc983e25e23e124874909c96cd693e7e&app_version=2.0.0.1&sign=e6523684f8e5fddfd5a0a075239db4db&from=singlemessage&isappinstalled=0"]
+let articles = ["https://focu.youth.cn/zerohot/20210323?sid=37048622&uid=52454720&timestamp=1616490232&signature=NXjrme82G3An0wVvWpamBNEomfy9ZNK1gq9dJKyL5YRxElM6Zo&share_id=52454720370486221616490247716&scene_id=fire_share&time=1616490248&phone_code=bc983e25e23e124874909c96cd693e7e&app_version=2.0.0.1&sign=c2fa7988140dadff6cc12b26a0f8c3d4&from=singlemessage&isappinstalled=0","https://focu.youth.cn/zerohot/20210321?sid=37007563&uid=52454720&timestamp=1616490232&signature=M3YJXEvNgO8W5zRwpk4Vj6OyJTE2Dod42mZ69xB0loAqGPQnLb&share_id=52454720370075631616490275467&scene_id=fire_share&time=1616490275&phone_code=bc983e25e23e124874909c96cd693e7e&app_version=2.0.0.1&sign=e6523684f8e5fddfd5a0a075239db4db&from=singlemessage&isappinstalled=0"]
 
 let encodearticles;
 
